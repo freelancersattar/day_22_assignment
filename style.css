@@ -1,0 +1,352 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+span {
+    font-family: "Work Sans", sans-serif;
+}
+.headerlogo {
+    width: 62px;
+}
+.headerbtn {
+    background-color: #fff;
+    color: #6278df;
+    border: 2px solid #6278df;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 6px 15px;
+    transition: 0.5s;
+}
+.headerbtn:hover {
+    background-color: #6278df;
+    color: #fff;
+    box-shadow: 2.5px 4.33px 24px 0 #6278df;
+}
+ul li a {
+    color: #000 !important;
+}
+.slider_section {
+    background-image: url(https://i.ibb.co/3FMTz8c/mbr-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider_section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.568);
+    z-index: -1;
+}
+.sliderformc {
+    border: 2px solid #5ba533;
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.sliderformc:hover {
+    border: 2px solid #505c8f;
+    box-shadow: 2.5px 4.33px 24px 0 #6278df;
+}
+.slidersubmi {
+    background-color: #5ba533;
+    color: #fff;
+    border: 2px solid #5ba533;
+    transition: 0.5s;
+    padding: 12px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.slidersubmi:hover {
+    border: 2px solid #505c8f;
+    box-shadow: 2.5px 4.33px 24px 0 #6278df;
+    background-color: #fff;
+}
+.programesection {
+    background-color: #ffffff;
+    padding: 30px 0;
+}
+.program_content h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+.appllication_section h1 {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 10px;
+}
+.appclip {
+    font-size: 28px;
+    padding: 10px 0 50px 0px;
+}
+.activity_section {
+    background-color: #f7f9ff;
+    padding: 100px 0;
+}
+.activity_content {
+    padding-top: 150px;
+}
+.activity_content p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.activity_img {
+    margin-right: 34px;
+}
+.appllication_section {
+    background-color: #ffffff;
+    padding: 150px 0;
+}
+.application_content {
+    background-color: #ffffff;
+    height: 250px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    transition: all 0.3s;
+}
+.application_content:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.application_img {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.application_img img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+.img2 {
+    left: -60px !important;
+}
+.img3 {
+    left: -0px !important;
+}
+.application_box_con {
+    width: 60%;
+    padding: 25px;
+}
+.containerx {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.card .card-wrapper {
+    height: 100%;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    transition: all 0.3s;
+}
+.portfolio_section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+.portfolio_img {
+    position: relative;
+}
+.portfolio_img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #47529bce;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.portfolio_img:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+.price_table {
+    background-color: #f7f9ff;
+    padding: 100px 0;
+}
+.price-item {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 18px -3px #6279df5b;
+    border-radius: 10px;
+}
+.price-item li {
+    font-size: 22px;
+    color: #767676;
+}
+.price-item h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+.price-item li i {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #6278df;
+    font-weight: 600;
+}
+.price-item a {
+    color: #6278df;
+    background-color: #fff;
+    padding: 15px 30px;
+    box-shadow: 0px 0px 27px -3px #6279df91;
+    font-weight: 500;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.price-item:hover a {
+    background-color: #6278df;
+    color: #fff;
+}
+.price-item a:hover {
+    background-color: #000000;
+    color: #fff;
+}
+.feedback_section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.feedbanck_conten i {
+    font-size: 135px;
+    color: #f0f0f0;
+}
+.feedbackimg img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.ddddd {
+    margin-top: -8px;
+}
+/* team section */
+.team_section {
+    background-color: #f7f9ff;
+    padding: 50px 0;
+}
+.team_user {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 27px -3px #6279df91;
+    position: relative;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+.team_user:hover {
+    box-shadow: 0px 0px 27px -3px #6279dfd7;
+}
+.team_user img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: -65px;
+    left: 18px;
+    box-shadow: 0px 0px 27px -3px #6279df91;
+    position: absolute;
+}
+.websidee {
+    box-shadow: 0px 0px 27px -3px #6279df91;
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.websidee:hover {
+    background-color: rgba(0, 0, 0, 0.884);
+    color: #fff;
+}
+/* opinion */
+.opinion_section {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+.contect-form {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0px 0px 27px -3px #13131311;
+    width: 60%;
+    border-radius: 10px;
+}
+.contect-form input {
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: 0.5s;
+}
+.contect-form textarea {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: 0.5s;
+    outline: none;
+}
+.contect-form input:hover {
+    border: 1px solid #6278df;
+    box-shadow: 0px 0px 27px -3px #6279df91;
+}
+.contect-form textarea:hover {
+    border: 1px solid #6278df;
+    box-shadow: 0px 0px 27px -3px #6279df91;
+}
+.formbtn {
+    color: #fff;
+    background-color: #6278df;
+    border-radius: 5px;
+    border: 2px solid #6278df;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 15px;
+    transition: 0.5s;
+}
+.formbtn:hover {
+    background-color: #ffffff;
+    border: 2px solid #6278df;
+    color: #6278df;
+    box-shadow: 0px 0px 27px -3px #6279df91;
+}
+.iphone {
+    width: 50%;
+    margin-top: 40px;
+}
+.iphone p {
+    font-size: 22px;
+}
+.applebtn {
+    background-color: #fff;
+    border: 2px solid #5ba533;
+    color: #5ba533;
+    transition: 0.5s;
+    font-size: 20px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+.applebtn:hover {
+    background-color: #5ba533;
+    box-shadow: 0px 0px 24px -3px #5ba53393;
+    color: #fff;
+}
+.googlebtn {
+    border: 2px solid #5ba533;
+    background-color: #5ba533;
+    color: #fff;
+    transition: 0.5s;
+    font-size: 20px;
+    padding: 15px 0;
+    font-weight: bold;
+    box-shadow: 0px 0px 24px -3px #5ba53393;
+}
+.googlebtn:hover {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+}
